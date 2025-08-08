@@ -15,15 +15,21 @@ function agregarAmigo(){
 
 
 function mostrarNombreAmigo(){
-    let lista = document.getElementById("listaAmigos");
-    let elemento = document.createElement("li");
-    elemento.textContent = nombreAmigo;
-    lista.appendChild(elemento);
 
+    crearElementosLista("listaAmigos","li",nombreAmigo);
+    
 }
 
 
-
 function sortearAmigo(){
+    let sorteo = Math.floor(Math.random()*listaAmigos.length); 
+    let mostrar = document.getElementById("resultado").value = listaAmigos[sorteo];
+    crearElementosLista("resultado","li",mostrar);
+}
 
+function crearElementosLista(lista, elemento,muestra){
+    let listas = document.getElementById(lista);
+    let elementoLista = document.createElement(elemento);
+    elementoLista.textContent = muestra;
+    listas.appendChild(elementoLista);
 }
