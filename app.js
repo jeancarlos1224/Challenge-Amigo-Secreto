@@ -20,7 +20,6 @@ function mostrarNombreAmigo(){
     
 }
 
-
 function sortearAmigo(){
     let sorteo = Math.floor(Math.random()*listaAmigos.length); 
     let mostrar = document.getElementById("resultado").value = listaAmigos[sorteo];
