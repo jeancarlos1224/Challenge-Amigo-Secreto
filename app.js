@@ -16,20 +16,21 @@ function agregarAmigo(){
 
 function mostrarNombreAmigo(){
     crearElementosLista("listaAmigoss","li",nombreAmigo);
-    document.getElementById("listaAmigoss").style.display = 'block';
 }
 
 function sortearAmigo(){
     let sorteo = Math.floor(Math.random()*listaAmigos.length); 
     let mostrar = document.getElementById("resultado").value = "El amigo secreto es: " + listaAmigos[sorteo];
     
-    
     if (listaAmigos != ""){
         crearElementosLista("resultado","li",mostrar);
         document.querySelector("img").src="assets/amigo-secreto2.png"; 
 
         document.getElementById("listaAmigoss").style.display = 'none';
+
+        document.querySelector(".button-draw").disabled = true;
     }
+    
 }
 
 function crearElementosLista(lista, elemento,muestra){
