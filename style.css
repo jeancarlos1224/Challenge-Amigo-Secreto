@@ -39,6 +39,11 @@ body {
     padding: 40px 0 0;
 }
 
+#footer{
+    text-decoration-color: white;
+    color: white;
+    text-align: center;
+}
 /* Sección de entrada */
 .input-section {
     flex: 60%;
@@ -136,7 +141,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #71e324;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
