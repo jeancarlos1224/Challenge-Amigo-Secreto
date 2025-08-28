@@ -11,7 +11,7 @@ Permite ingresar nombres de participantes y, con un solo clic, elegir uno al aza
 
 🚀 Cómo usar
 
-1. Abre el archivo `index.html` en tu navegador.
+1. Haga click en el siguiente enlace: https://jeancarlos1224.github.io/Challenge-Amigo-Secreto/
 2. Escribe el nombre de un amigo en el campo de texto y presiona **Agregar**.
 3. Repite el paso anterior hasta completar la lista de participantes.
 4. Haz clic en **Sortear** para mostrar un nombre al azar.
