@@ -1,3 +1,5 @@
+<img width="1266" height="680" alt="amigo-secreto" src="https://github.com/user-attachments/assets/fff3f09d-a7ad-4fce-907c-222efd3ef655" />
+
 # Juego de Amigo Secreto
 
 Este proyecto es un pequeño juego en JavaScript para organizar un sorteo de Amigo Secreto.
