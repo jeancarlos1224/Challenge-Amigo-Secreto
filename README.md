@@ -14,9 +14,9 @@ Permite ingresar nombres de participantes y, con un solo clic, elegir uno al aza
 🚀 Cómo usar
 
 1. Haga click en el siguiente enlace: https://jeancarlos1224.github.io/Challenge-Amigo-Secreto/
-2. Escribe el nombre de un amigo en el campo de texto y presiona **Agregar**.
+2. Escribe el nombre de un amigo en el campo de texto y presiona **Añadir**.
 3. Repite el paso anterior hasta completar la lista de participantes.
-4. Haz clic en **Sortear** para mostrar un nombre al azar.
+4. Haz clic en **Sortear Amigo** para mostrar un nombre al azar. Después de mostrar el amigo secreto también cambiara la imagen del robot con una lupa a un robot con estrellas.
 
 🛠 Tecnologías utilizadas
 
